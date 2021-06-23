@@ -1,0 +1,134 @@
+QLabel#maincontent {
+    background-image:url("image/smartaccount1.jpg");
+}
+
+
+
+addToolBar {
+   background-color: #222222;
+  
+}
+
+
+QComboBox#comboboxAccount QAbstractItemView { min-height: 350px;}
+
+QDateEdit#dateedit{width: 50px;}
+
+QHeaderView::section {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+   
+}
+
+QTableWidgetItem::QTableWidgetItem {color: #618b38;
+   font-style: italic;
+   font-weight: bold;}
+
+QTextEdit#LedgerTextEdit {font-family: arial, sans-serif;
+        width: 100%;
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+   }
+
+
+
+QLabel#title {
+     font-family: time new roman,arial, sans-serif;
+     font-size:25px;
+     padding-left:50px;
+     padding-right:50px;
+     color:white;
+     font-weight: bold;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #00c6ff);
+                                       
+    }
+
+
+
+QLabel#logoff {
+     qproperty-alignment: AlignRight;
+     font-family: arial, sans-serif;
+     padding-right:40px;
+     padding-top:20px;
+     position: right;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #dadbde);
+                                       
+    }    
+
+QLabel#company {
+  
+  padding-left:25px;
+    background-color:  #aeb2b3;
+    }   
+
+QLabel#web {
+
+  qproperty-alignment: AlignLeft;
+  background-color:  #aeb2b3;
+    }  
+
+QLabel#loginas {
+  padding-right:15px;
+  qproperty-alignment: AlignRight;
+  background-color:  #aeb2b3;
+    }      
+
+QVBoxLayout#actionlayout2 {
+   background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #00c6ff);
+   border: 2px solid red;
+    }            
+
+
+QPushButton#signinbutton {
+    border: 2px solid #8f8f91;
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #00c6ff);
+    min-width: 80px;
+    height:20px;
+}    
+
+
+QPushButton:pressed#signinbutton {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+
+
+QPushButton:flat#signinbutton {
+    border: none; /* no border for a flat push button */
+}
+
+QLineEdit#signlineedit {
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 0 8px;
+    background: aliceblue;
+    selection-background-color: darkgray;
+    height:25px;
+}
+
+
+
+ClickableLabel#signuplabel{
+  qproperty-alignment: AlignLeft;
+  padding-bottom:0px;
+  }
+
+
+QLabel#schoolimg{
+  qproperty-alignment: AlignCenter;
+  }
+
+QLabel#schoollabel{
+  font-size:21px;
+  qproperty-alignment: AlignCenter;
+  color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #00c6ff);
+  }
