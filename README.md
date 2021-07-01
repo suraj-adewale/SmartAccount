@@ -1,4 +1,4 @@
-# SmartAccount PyQt5
+# SmartAccount PyQt5 & Js
 This is a Desktop App accout management system. It is specifically developed 
 to manage various transactions by bursary departmnet in administrative 
 <br>
